@@ -26,8 +26,10 @@ Estas descripciones se transforman en embeddings y posteriormente se analizan me
   * Tiende a la "homogeneización". Al forzar a todos a medir 1.0, reduce la jerarquía entre los conceptos.
   * Es útil para comparaciones rápidas de "a qué se parece esto", pero pierde el matiz de la importancia relativa.
 
-[Codigo completo usando modelo all-MiniLM-L6-v2](https://github.com/gonzalezmendez/Embeddings-PCA/blob/img/L6.png)
-![Texto alternativo](https://github.com/gonzalezmendez/Embeddings-PCA/blob/img/L6B.png)
+|[Codigo modelo all-MiniLM-L6-v2](https://github.com/gonzalezmendez/NLP/blob/txt/L6.txt)|[Imagen del codigo](https://github.com/gonzalezmendez/NLP/blob/img/L6.png)|
+|:--|--:|
+
+![Texto alternativo](https://github.com/gonzalezmendez/NLP/blob/img/L6B.png)
 ---
 ### Modelo paraphrase-multilingual-MiniLM-L12-v2
   * Es más robusto. Al permitir que los vectores crezcan en magnitud, está capturando una dimensionalidad más rica del texto complejo.
@@ -35,3 +37,4 @@ Estas descripciones se transforman en embeddings y posteriormente se analizan me
 
 [Codigo completo usando el modelo paraphrase-multilingual-MiniLM-L12-v2](https://github.com/gonzalezmendez/Embeddings-PCA/blob/img/L12.png))
 ![Texto alternativo](https://github.com/gonzalezmendez/Embeddings-PCA/blob/img/L12B.png)
+https://github.com/gonzalezmendez/NLP/blob/txt/L12.txt
