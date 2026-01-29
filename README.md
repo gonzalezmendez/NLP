@@ -8,6 +8,13 @@ Las leyes físicas (por ejemplo, las leyes de Newton, la gravedad, la conservaci
 
 Estas descripciones se transforman en embeddings y posteriormente se analizan mediante Análisis de Componentes Principales (PCA) para observar cómo el modelo captura similitudes, relaciones y estructuras latentes.
 
+## Librerias:
+`pip install sentence-transformers`
+`pip install scikit-learn`
+`pip install pandas`
+`pip install numpy`
+`pip install plotly`
+
 ## Saber que modelo de ML elegir.
 | MODELO | IDIOMAS |  PRECISION | VELOCIDAD | USO TIPICO |
 | :-- | :-- | :-- | :-- |:-- |
