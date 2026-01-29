@@ -1,5 +1,5 @@
 # NLP – Natural Language Processing (procesamiento de lenguaje natural)
-Generación de embeddings vectoriales de texto y aplicación de PCA para reducción de dimensionalidad y comparación semántica.
+### _Generación de embeddings vectoriales de texto y aplicación de PCA para reducción de dimensionalidad y comparación semántica._
 
 Los embeddings y la PCA son herramientas fundamentales en el procesamiento del lenguaje natural y la inteligencia artificial, permitiendo a los modelos de aprendizaje automático entender y procesar el lenguaje humano de manera más efectiva.
 
@@ -9,27 +9,27 @@ Las leyes físicas (por ejemplo, las leyes de Newton, la gravedad, la conservaci
 
 Estas descripciones se transforman en embeddings y posteriormente se analizan mediante Análisis de Componentes Principales (PCA) para observar cómo el modelo captura similitudes, relaciones y estructuras latentes.
 
-## Librerias:
+### Librerias:
 `pip install sentence-transformers`
 `pip install scikit-learn`
 `pip install pandas`
 `pip install numpy`
 `pip install plotly`
 
-## Saber que modelo de ML elegir.
+### Saber que modelo de ML elegir.
 | MODELO | IDIOMAS |  PRECISION | VELOCIDAD | USO TIPICO |
 | :-- | :-- | :-- | :-- |:-- |
 | all-MiniLM-L6-v2 | Principalmente inglés | Buena | Muy Rapido | Búsqueda semántica general |
 | paraphrase-multilingual-MiniLM-L12-v2 | Multilenguaje | Alta | Lento | Similaridad semántica multilingüe|
 
-## Modelo all-MiniLM-L6-v2
+### Modelo all-MiniLM-L6-v2
   * Tiende a la "homogeneización". Al forzar a todos a medir 1.0, reduce la jerarquía entre los conceptos.
   * Es útil para comparaciones rápidas de "a qué se parece esto", pero pierde el matiz de la importancia relativa.
 
 [Codigo completo usando modelo all-MiniLM-L6-v2](https://github.com/gonzalezmendez/Embeddings-PCA/blob/img/L6.png)
 ![Texto alternativo](https://github.com/gonzalezmendez/Embeddings-PCA/blob/img/L6B.png)
 ---
-## Modelo paraphrase-multilingual-MiniLM-L12-v2
+### Modelo paraphrase-multilingual-MiniLM-L12-v2
   * Es más robusto. Al permitir que los vectores crezcan en magnitud, está capturando una dimensionalidad más rica del texto complejo.
   * Refleja mejor las distancias reales entre conceptos físicos distintos (no es lo mismo la inercia que la gravedad).
 
